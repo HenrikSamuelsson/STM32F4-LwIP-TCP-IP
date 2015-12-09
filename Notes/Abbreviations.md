@@ -1,6 +1,10 @@
 # Abbreviations #
 Various abbreviations more or less related to the project.  
 
+**LwIP**  
+Lightweight IP  
+An open source TCP/IP stack designed for embedded systems.  
+
 **IP**  
 Internet Protocol  
 Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries.  
