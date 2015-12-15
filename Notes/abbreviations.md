@@ -5,6 +5,10 @@ Various abbreviations more or less related to the project.
 Board Support Package
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
 
+**GDB**  
+GNU Debugger  
+A portable debugger that runs on many systems and works for many programming languages.  
+
 **LwIP**  
 Lightweight IP  
 An open source TCP/IP stack designed for embedded systems.  
