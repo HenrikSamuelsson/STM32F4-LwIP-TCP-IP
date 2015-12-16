@@ -25,6 +25,10 @@ A portable debugger that runs on many systems and works for many programming lan
 Internet Control Message Protocol  
 Used for network maintenance and debugging. This protocol is supported by LwIP.  
 
+**IGMP**  
+Internet Group Management Protocol  
+For multicast traffic management.  
+
 **IP**  
 Internet Protocol  
 Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries.
