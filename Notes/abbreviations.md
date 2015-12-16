@@ -1,6 +1,10 @@
 # Abbreviations #
 Various abbreviations more or less related to the project.  
 
+**ARP**
+Address Resolution Protocol  
+Protocol used for resolution of network layer addresses into link layer addresses.  
+
 **BSP**  
 Board Support Package  
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
