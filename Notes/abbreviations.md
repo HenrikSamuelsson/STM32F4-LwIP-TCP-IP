@@ -9,6 +9,10 @@ Protocol used for resolution of network layer addresses into link layer addresse
 Board Support Package  
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
 
+**DHCP**  
+Dynamic Host Configuration Protocol  
+Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually.  
+
 **DNS**  
 Domain Name Server
 Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component.  
@@ -44,6 +48,10 @@ Module responsible for handling communication based on a protocol. The protocol 
 **PHY**  
 PHYsical  
 An abbreviation for the physical layer of the OSI model and refers to the circuitry required to implement physical layer functions.  
+
+**SNMP**  
+Simple Network Management Protocol  
+Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior.  
 
 **TCP**  
 Transmission Control Protocol  
