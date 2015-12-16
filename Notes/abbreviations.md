@@ -11,15 +11,19 @@ Layer in the STM32CubeF4 architecture that offers a set of APIs related to the h
 
 **DHCP**  
 Dynamic Host Configuration Protocol  
-Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually.  
+Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually. This protocol is supported by LwIP.
 
 **DNS**  
 Domain Name Server
-Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component.  
+Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component. This protocol is supported by LwIP.  
 
 **GDB**  
 GNU Debugger  
 A portable debugger that runs on many systems and works for many programming languages.  
+
+**ICMP**  
+Internet Control Message Protocol  
+Used for network maintenance and debugging. This protocol is supported by LwIP.  
 
 **IP**  
 Internet Protocol  
@@ -51,7 +55,7 @@ An abbreviation for the physical layer of the OSI model and refers to the circui
 
 **SNMP**  
 Simple Network Management Protocol  
-Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior.  
+Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior. This protocol is supported by LwIP.    
 
 **TCP**  
 Transmission Control Protocol  
