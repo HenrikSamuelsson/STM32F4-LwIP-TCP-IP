@@ -20,7 +20,6 @@ An open source TCP/IP stack designed for embedded systems.
 **OSI**  
 Open System Interconnection  
 A conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to their underlying internal structure and technology.
- 
 
 **PCB**  
 Protocol Control Block  
