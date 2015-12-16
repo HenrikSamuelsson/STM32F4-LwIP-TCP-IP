@@ -57,6 +57,10 @@ Module responsible for handling communication based on a protocol. The protocol 
 PHYsical  
 An abbreviation for the physical layer of the OSI model and refers to the circuitry required to implement physical layer functions.  
 
+**PPP**  
+Point to Point Protcol  
+A data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption, and compression.  
+
 **SNMP**  
 Simple Network Management Protocol  
 Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior. This protocol is supported by LwIP.    
