@@ -17,6 +17,10 @@ Important commonly used protocol for Internet communication. Provides functional
 Lightweight IP  
 An open source TCP/IP stack designed for embedded systems.  
 
+**MAC**  
+Media Access Control  
+A MAC address is a unique identifier assigned to network interfaces for communications on the physical network segment.  
+
 **OSI**  
 Open System Interconnection  
 A conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to their underlying internal structure and technology.
