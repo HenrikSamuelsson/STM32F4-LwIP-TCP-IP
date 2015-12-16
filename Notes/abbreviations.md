@@ -1,13 +1,17 @@
 # Abbreviations #
 Various abbreviations more or less related to the project.  
 
-**ARP**
+**ARP**  
 Address Resolution Protocol  
 Protocol used for resolution of network layer addresses into link layer addresses.  
 
 **BSP**  
 Board Support Package  
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
+
+**DNS**  
+Domain Name Server
+Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component.  
 
 **GDB**  
 GNU Debugger  
