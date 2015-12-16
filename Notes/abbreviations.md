@@ -61,6 +61,10 @@ An abbreviation for the physical layer of the OSI model and refers to the circui
 Point to Point Protcol  
 A data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption, and compression.  
 
+**PPPoE**  
+Point to Point Protocol over Ethernet  
+Network protocol for encapsulating PPP frames inside Ethernet frames.  
+
 **SNMP**  
 Simple Network Management Protocol  
 Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior. This protocol is supported by LwIP.    
