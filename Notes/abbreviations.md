@@ -21,6 +21,10 @@ An open source TCP/IP stack designed for embedded systems.
 Media Access Control  
 A MAC address is a unique identifier assigned to network interfaces for communications on the physical network segment.  
 
+**MII**  
+Media Independent Interface  
+A standard interface used to connect a Ethernet MAC block to a PHY chip.  
+
 **OSI**  
 Open System Interconnection  
 A conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to their underlying internal structure and technology.
@@ -28,6 +32,10 @@ A conceptual model that characterizes and standardizes the communication functio
 **PCB**  
 Protocol Control Block  
 Module responsible for handling communication based on a protocol. The protocol can be TCP or UDP.  
+
+**PHY**  
+PHYsical  
+An abbreviation for the physical layer of the OSI model and refers to the circuitry required to implement physical layer functions.  
 
 **TCP**  
 Transmission Control Protocol  
