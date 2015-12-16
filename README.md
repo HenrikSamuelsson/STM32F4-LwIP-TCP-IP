@@ -9,3 +9,4 @@ It is possible to develop C and C++ code for STM32F4 by the use of [GNU ARM Ecli
 Toolchain version used is [gcc-arm-none-eabi-4_9-2015q3](https://launchpad.net/gcc-arm-embedded/+download "gcc-arm-none-eabi-4_9-2015q3"). 
 
 ## LwIP Configuration  
+All LwIP based projects contain a configuration file named lwipopts.h. Any missing option from this configuration file can be imported (copy/paste) from a file called opt.h.  
