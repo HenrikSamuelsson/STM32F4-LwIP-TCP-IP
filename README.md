@@ -25,8 +25,7 @@ A socket placed in non-blocking mode, means that we are free to do other things 
 ## LwIP API's
 LwIP offers three different API's designed for different purposes:  
 
-1. Raw API is the core API of LwIP. This API aims at providing the best performances while using a minimal code size. Events are handled asynchronously by the use of callbacks. When using the Raw API in a mufti-threaded environment, beware that there is no protection against concurrent
-access. Consequently, all the network part of the application must remain in a single thread context.  
+1. Raw API is the core API of LwIP. This API aims at providing the best performances while using a minimal code size. Events are handled asynchronously by the use of callbacks. When using the Raw API in a mufti-threaded environment, beware that there is no protection against concurrent access. Consequently, all the network part of the application must remain in a single thread context.  
 
 2. Netconn API is a sequential API built on top of the Raw API. It allows mufti-threaded operation and therefore requires an operating system. It is easier to use than the Raw API at the expense of lower performances and
 increased memory footprint.  
