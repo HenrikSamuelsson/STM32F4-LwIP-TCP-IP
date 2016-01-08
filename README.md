@@ -22,6 +22,9 @@ A socket set to blocking will not take control of the system and not release it 
 
 A socket placed in non-blocking mode, means that we are free to do other things without having to stop and wait for an operation to complete.  
 
+## Zero-Copy
+Zero-copy describes computer operations in which the CPU does not perform the task of copying data from one memory area to another. This is frequently used to save CPU cycles and memory bandwidth when transmitting a file over a network.  
+
 ## LwIP API's
 LwIP offers three different API's designed for different purposes:  
 
