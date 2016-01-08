@@ -3,7 +3,7 @@ Various abbreviations more or less related to the project.
 
 **ARP**  
 Address Resolution Protocol  
-Protocol used for resolution of network layer addresses into link layer addresses.  
+Protocol used for resolution of network layer addresses into link layer addresses. This protocol is supported by LwIP.  
 
 **BSD**  
 Berkley Software Distribution  
@@ -19,7 +19,7 @@ Used on IP networks for dynamically distributing network configuration parameter
 
 **DNS**  
 Domain Name Server
-Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component. This protocol is supported by LwIP.  
+Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component. This protocol is supported by LwIP. This protocol is supported by LwIP.  
 
 **GDB**  
 GNU Debugger  
@@ -31,11 +31,11 @@ Used for network maintenance and debugging. This protocol is supported by LwIP.
 
 **IGMP**  
 Internet Group Management Protocol  
-For multicast traffic management.  
+For multicast traffic management. This protocol is supported by LwIP.  
 
 **IP**  
 Internet Protocol  
-Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries.
+Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries. This protocol is supported by LwIP.  
 
 **LwIP**  
 Lightweight IP  
@@ -63,11 +63,11 @@ An abbreviation for the physical layer of the OSI model and refers to the circui
 
 **PPP**  
 Point to Point Protocol  
-A data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption, and compression.  
+A data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption, and compression. This protocol is supported by LwIP.  
 
 **PPPoE**  
 Point to Point Protocol over Ethernet  
-Network protocol for encapsulating PPP frames inside Ethernet frames.  
+Network protocol for encapsulating PPP frames inside Ethernet frames. This protocol is supported by LwIP.  
 
 **SNMP**  
 Simple Network Management Protocol  
@@ -75,8 +75,8 @@ Collects and organizes information about managed devices on IP networks can also
 
 **TCP**  
 Transmission Control Protocol  
-Provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating over an IP network.  
+Provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating over an IP network. This protocol is supported by LwIP.  
 
 **UDP**  
 User Datagram Protocol
-A simple connectionless transmission model with a minimum of protocol mechanisms.  
+A simple connectionless transmission model with a minimum of protocol mechanisms. This protocol is supported by LwIP.    
