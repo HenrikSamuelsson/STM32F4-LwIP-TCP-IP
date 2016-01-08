@@ -8,6 +8,13 @@ It is possible to develop C and C++ code for STM32F4 by the use of [GNU ARM Ecli
 
 Toolchain version used is [gcc-arm-none-eabi-4_9-2015q3](https://launchpad.net/gcc-arm-embedded/+download "gcc-arm-none-eabi-4_9-2015q3"). 
 
+## Sockets  
+A network socket is an endpoint of an inter-process communication across a computer network. Today, most communication between computers is based on the Internet Protocol; therefore most network sockets are Internet sockets.  
+
+A socket API is an application programming interface (API), usually provided by the operating system, that allows application programs to control and use network sockets. Internet socket APIs are usually based on the Berkeley sockets standard.  
+
+A socket address is the combination of an IP address and a port number, much like one end of a telephone connection is the combination of a phone number and a particular extension. Based on this address, internet sockets deliver incoming data packets to the appropriate application process or thread.  
+
 ## Blocking VS Non-Blocking
 A socket can be setup to be either blocking or non-blocking.  
 
