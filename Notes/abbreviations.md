@@ -5,6 +5,10 @@ Various abbreviations more or less related to the project.
 Address Resolution Protocol  
 Protocol used for resolution of network layer addresses into link layer addresses.  
 
+**BSD**  
+Berkley Software Distribution  
+Unix operating system derivative developed and distributed by the University of California, Berkeley, from 1977 to 1995. Today the term BSD is often used non-specifically to refer to any of the BSD descendants which together form a branch of the family of Unix-like operating systems. 
+
 **BSP**  
 Board Support Package  
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
