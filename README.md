@@ -8,5 +8,12 @@ It is possible to develop C and C++ code for STM32F4 by the use of [GNU ARM Ecli
 
 Toolchain version used is [gcc-arm-none-eabi-4_9-2015q3](https://launchpad.net/gcc-arm-embedded/+download "gcc-arm-none-eabi-4_9-2015q3"). 
 
+## Blocking VS Non-Blocking
+A socket can be setup to be either blocking or non-blocking.  
+
+A socket set to blocking will not take control of the system and not release it until some event happens. For example when you call receive to read from a stream, control isn't returned to your program until at least one byte of data is read from the remote site. This process of waiting for data to appear is referred to as "blocking".  
+
+A socket placed in non-blocking mode, means that we are free to do other things without having to stop and wait for an operation to complete.
+
 ## LwIP Configuration  
 All LwIP based projects contain a configuration file named lwipopts.h. Any missing option from this configuration file can be imported (copy/paste) from a file called opt.h.  
