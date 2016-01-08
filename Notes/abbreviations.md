@@ -58,7 +58,7 @@ PHYsical
 An abbreviation for the physical layer of the OSI model and refers to the circuitry required to implement physical layer functions.  
 
 **PPP**  
-Point to Point Protcol  
+Point to Point Protocol  
 A data link protocol used to establish a direct connection between two nodes. It can provide connection authentication, transmission encryption, and compression.  
 
 **PPPoE**  
