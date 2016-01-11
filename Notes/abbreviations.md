@@ -25,6 +25,10 @@ Computer hardware or software server that implements a network service for provi
 GNU Debugger  
 A portable debugger that runs on many systems and works for many programming languages.  
 
+**GMAC**  
+Gigabit Media Access Controller  
+An interface between the MAC device and the PHY. The interface defines speeds up to 1000 Mbit/s, and is backwards compatible with the MII specification.  
+
 **ICMP**  
 Internet Control Message Protocol  
 Used for network maintenance and debugging. This protocol is supported by LwIP.  
