@@ -77,6 +77,10 @@ A data link protocol used to establish a direct connection between two nodes. It
 Point to Point Protocol over Ethernet  
 Network protocol for encapsulating PPP frames inside Ethernet frames. This protocol is supported by LwIP.  
 
+**RMII**  
+Reduced Media Independent Interface  
+A standard that uses lesser number of signals than MII to connect a PHY to a MAC.  
+
 **SNMP**  
 Simple Network Management Protocol  
 Collects and organizes information about managed devices on IP networks can also modify the information to change device behavior. This protocol is supported by LwIP.    
