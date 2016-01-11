@@ -13,6 +13,10 @@ Unix operating system derivative developed and distributed by the University of 
 Board Support Package  
 Layer in the STM32CubeF4 architecture that offers a set of APIs related to the hardware components mounted on the boards.  
 
+**CGI**  
+Common Gateway Interface  
+A standard environment for web servers to interface with executable programs installed on a server that generate web pages dynamically.
+
 **DHCP**  
 Dynamic Host Configuration Protocol  
 Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually. This protocol is supported by LwIP.
