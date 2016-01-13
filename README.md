@@ -45,7 +45,17 @@ The internet layer is a group of internetworking methods, protocols, and specifi
 
 Internet-layer protocols use IP-based packets. The internet layer does not include the protocols that define communication between local (on-link) network nodes which fulfill the purpose of maintaining link states between the local nodes, such as the local network topology, and that usually use protocols that are based on the framing of packets specific to the link types. Such protocols belong to the link layer.  
 
-The internet layer is in LwIP implemented in the file named ip.c.
+The internet layer is in LwIP implemented in the file named ip.c.  
+
+### Transport Layer  
+The transport layer implements the protocols that provide host-to-host communication services for applications. It provides services such as connection-oriented data stream support, reliability, flow control, and multiplexing.  
+
+The transport layer is in LwIP implemented in the files named udp.c and tcp.c. 
+
+### Application Layer  
+The application layer contains all protocols for specific data communications services on a process-to-process level.  
+
+The application layer is in LwIP implemented in a number of different files, for example dhcp.c, dns.c.  
 
 ## LwIP API's
 LwIP offers three different API's designed for different purposes:  
