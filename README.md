@@ -25,6 +25,21 @@ A socket placed in non-blocking mode, means that we are free to do other things 
 ## Zero-Copy
 Zero-copy describes computer operations in which the CPU does not perform the task of copying data from one memory area to another. This is frequently used to save CPU cycles and memory bandwidth when transmitting a file over a network.  
 
+## LwIP Architecture  
+The architecture of LwIP is based on the architecture of the TCP/IP model which specifies format, transmitting and routing of data between two end points.  
+
+The model is based on four abstraction layers. From lowest to highest the layers are:  
+
+1. Link layer  
+2. Internet layer (IP)  
+3. Transport layer  
+4. Application layer  
+
+### Link Layer
+The link layer is the group of methods and communications protocols that only operate on the link that a host is physically connected to. The link is the physical and logical network component used to interconnect hosts or nodes in the network and a link protocol is a suite of methods and standards that operate only between adjacent network nodes of a local area network segment or a wide area network connection.  
+
+The link layer is not really part of the LwIP but there is layer called Network interface layer in the file netif.c. This layer functions as an interface to the link layer. The actual link layer is provided by external hardware specific drivers.   
+
 ## LwIP API's
 LwIP offers three different API's designed for different purposes:  
 
