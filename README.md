@@ -8,12 +8,16 @@ It is possible to develop C and C++ code for STM32F4 by the use of [GNU ARM Ecli
 
 Toolchain version used is [gcc-arm-none-eabi-4_9-2015q3](https://launchpad.net/gcc-arm-embedded/+download "gcc-arm-none-eabi-4_9-2015q3"). It was chosen to be installed at the location:  
 
-- C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2015q3  
+- C:\Program Files (x86)\GNU Tools ARM Embedded\4.9 2015q3
+
+The company that develops the processor on the Discovery kit provides a software platform with HAL drivers, middle-wares and examples. This platform goes under the name [STM32CubeF4](http://www.st.com/web/en/catalog/tools/PF259243). Version 1.10.0 was downloaded for this project and it was then unpacked to my local drive at:  
+
+- D:\Program\STMicroelectronics\STM32Cube\STM32CubeF4  
 
 ## Sockets  
 A network socket is an endpoint of an inter-process communication across a computer network. Today, most communication between computers is based on the Internet Protocol; therefore most network sockets are Internet sockets.  
 
-A socket API is an application programming interface (API), usually provided by the operating system, that allows application programs to control and use network sockets. Internet socket APIs are usually based on the Berkeley sockets standard.  
+A socket API is an application programming interface (API), usually provided by the operating system, that allows application programs to control and use network sockets. Internet socket API's are usually based on the Berkeley sockets standard.  
 
 A socket address is the combination of an IP address and a port number, much like one end of a telephone connection is the combination of a phone number and a particular extension. Based on this address, internet sockets deliver incoming data packets to the appropriate application process or thread.  
 
