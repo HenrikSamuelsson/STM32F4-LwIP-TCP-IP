@@ -44,7 +44,7 @@ The model is based on four abstraction layers. From lowest to highest the layers
 ### Link Layer
 The link layer is the group of methods and communications protocols that only operate on the link that a host is physically connected to. The link is the physical and logical network component used to interconnect hosts or nodes in the network and a link protocol is a suite of methods and standards that operate only between adjacent network nodes of a local area network segment or a wide area network connection.  
 
-The link layer is not really part of the LwIP but there is layer called Network interface layer in the file netif.c. This layer functions as an interface to the link layer. The actual link layer is provided by external hardware specific drivers.  
+The link layer is not really part of the LwIP but there is layer called Network interface layer in the file netif.c. This layer functions as an interface to the link layer. The actual link layer is provided by external drivers that are hardware specific.  
 
 ### Internet Layer  
 The internet layer is a group of internetworking methods, protocols, and specifications in the Internet protocol suite that are used to transport datagrams (packets) from the originating host across network boundaries, if necessary, to the destination host specified by a network address (IP address) which is defined for this purpose by the Internet Protocol. The internet layer derives its name from its function of forming an internet (uncapitalized), or facilitating internetworking, which is the concept of connecting multiple networks with each other through gateways.
