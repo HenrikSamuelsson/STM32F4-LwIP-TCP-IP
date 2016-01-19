@@ -53,6 +53,10 @@ An open source TCP/IP stack designed for embedded systems.
 Media Access Control  
 A MAC address is a unique identifier assigned to network interfaces for communications on the physical network segment.  
 
+**MIB**  
+Management Information Base  
+A database used for managing the entities in a communication network. Most often associated with the SNMP.  
+
 **MII**  
 Media Independent Interface  
 A standard interface used to connect a Ethernet MAC block to a PHY chip.  
