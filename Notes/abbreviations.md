@@ -57,6 +57,10 @@ A MAC address is a unique identifier assigned to network interfaces for communic
 Media Independent Interface  
 A standard interface used to connect a Ethernet MAC block to a PHY chip.  
 
+**NTP**  
+Network Time Protocol  
+A networking protocol for clock synchronization between computer systems over data networks.  
+
 **OSI**  
 Open System Interconnection  
 A conceptual model that characterizes and standardizes the communication functions of a telecommunication or computing system without regard to their underlying internal structure and technology.
