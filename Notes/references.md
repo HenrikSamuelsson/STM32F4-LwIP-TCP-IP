@@ -12,3 +12,5 @@ UM1713 - Developing applications on STM32Cube with LwIP TCP/IP stack, DocId02573
 UM1730 - Getting started with STM32CubeF4 firwmare package for STM32F4 Series, DocId025922 Rev 6, November 2015.  
 
 [DM-STF4BB](http://down.embest-tech.com/download/DM-STF4BB.pdf) - DM-STFBB Base Board.  
+
+[STM32F4DIS-BB Quick Start Manual](http://www.cs.hs-rm.de/~kaiser/1313_canacademy/STM32F4DIS-BB%20Quick%20Start%20Manual.pdf) Rev 1.0.
