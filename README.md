@@ -2,7 +2,7 @@
 Development of an application running Internet communication based on a STM32F4 Discovery kit.
 
 ## Development Environment  
-The exact processor version mounted on the kit is a STM32F407VG. This version comes packed in a 100 pins LQFP and has 1 MB of flash and 192 KB of RAM. My current kit's are marked with a sticker that says C-01 and I assume that this indicates revision C.1.  
+The exact processor version mounted on the kit is a STM32F407VG. This version comes packed in a 100 pins LQFP. It holds an ARM Cortex-M4F core with 1 MB of flash and 192 KB of RAM. My current kit's are marked with a sticker that says C-01 and I assume that this indicates revision C.1.  
 
 The kit described above does not have all the hardware needed for Ethernet communication. An additional expansion board called DM-STF4BB (sometimes called STM32F4DIS-BB) is used to add missing functionality.  
 
