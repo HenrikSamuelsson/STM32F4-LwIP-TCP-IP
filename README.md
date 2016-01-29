@@ -21,7 +21,17 @@ A network socket is an endpoint of an inter-process communication across a compu
 
 A socket API is an application programming interface (API), usually provided by the operating system, that allows application programs to control and use network sockets. Internet socket API's are usually based on the Berkeley sockets standard.  
 
-A socket address is the combination of an IP address and a port number, much like one end of a telephone connection is the combination of a phone number and a particular extension. Based on this address, internet sockets deliver incoming data packets to the appropriate application process or thread.  
+A socket address is the combination of an IP address and a port number, much like one end of a telephone connection is the combination of a phone number and a particular extension. Based on this address, internet sockets deliver incoming data packets to the appropriate application process or thread. 
+
+An example of how to setup a socket with LwIP:
+
+```c  
+/* Allocate a new socket setup to run TCP  
+   * - AF_INET: address format is host and port number  
+   * - SOCK_STREAM: connection-based protocol  
+   * - IPPROTO_IP: will combined with previous settings result in a TCP socket   */  
+  g_socketHandle = socket(AF_INET, SOCK_STREAM, IPPROTO_IP);
+``` 
 
 ## Blocking VS Non-Blocking
 A socket can be setup to be either blocking or non-blocking.  
