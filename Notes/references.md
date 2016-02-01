@@ -1,5 +1,7 @@
 # References #
-List of documents used during development.  
+List of documents used during development.
+
+There is a collection of example projects at the LwIP web-site. These can be used as a base when setting up a project. See [http://cvs.savannah.gnu.org/viewvc/contrib/apps/?root=lwip](http://cvs.savannah.gnu.org/viewvc/contrib/apps/?root=lwip).  
 
 AN00014 - Connecting J-Link to a STM32F407-Discovery eval board. Rev 0, Nov 2013.  
 
