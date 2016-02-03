@@ -61,6 +61,10 @@ A database used for managing the entities in a communication network. Most often
 Media Independent Interface  
 A standard interface used to connect a Ethernet MAC block to a PHY chip.  
 
+**MSS**  
+Maximum Segment Size  
+Defines the maximum amount of data that can be sent or received in a TCP or UDP packet.  
+
 **NTP**  
 Network Time Protocol  
 A networking protocol for clock synchronization between computer systems over data networks.  
