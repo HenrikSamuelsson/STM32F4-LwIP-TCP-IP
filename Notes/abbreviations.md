@@ -3,7 +3,7 @@ Various abbreviations more or less related to the project.
 
 **ARP**  
 Address Resolution Protocol  
-Protocol used for resolution of network layer addresses into link layer addresses. This protocol is supported by LwIP.  
+Protocol used for resolution of network layer addresses into link layer addresses. This protocol is supported by LwIP and FreeRTOS+TCP.  
 
 **BSD**  
 Berkley Software Distribution  
@@ -19,11 +19,11 @@ A standard environment for web servers to interface with executable programs ins
 
 **DHCP**  
 Dynamic Host Configuration Protocol  
-Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually. This protocol is supported by LwIP.
+Used on IP networks for dynamically distributing network configuration parameters, such as IP addresses for interfaces and services. Enables computers request of IP addresses and networking parameters automatically from a server, reducing the need for a network administrator or a user to configure these settings manually. This protocol is supported by LwIP and FreeRTOS+TCP.
 
 **DNS**  
 Domain Name Server
-Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component. This protocol is supported by LwIP. This protocol is supported by LwIP.  
+Computer hardware or software server that implements a network service for providing responses to queries against a directory service. It translates an often humanly-meaningful, text-based identifier to a system-internal, often numeric identification or addressing component. This protocol is supported by LwIP. This protocol is supported by LwIP and FreeRTOS+TCP.  
 
 **GDB**  
 GNU Debugger  
@@ -44,6 +44,10 @@ For multicast traffic management. This protocol is supported by LwIP.
 **IP**  
 Internet Protocol  
 Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries. This protocol is supported by LwIP.  
+
+**LLMNR**  
+Link Local Multicast Name Resolution  
+A protocol for name resolution. This protocol is supported by FreeRTOS+TCP.  
 
 **LwIP**  
 Lightweight IP  
@@ -68,6 +72,10 @@ Defines the maximum amount of data that can be sent or received in a TCP or UDP 
 **MTU**  
 Maximum Transmission Unit  
 And is a characteristic of the hardware (physical layer). MTU sizes are specified in octets (8-bit values).  
+
+**NBNS**  
+NetBIO Name Service  
+A protocol for name resolution. This protocol is supported by FreeRTOS+TCP.    
 
 **NTP**  
 Network Time Protocol  
