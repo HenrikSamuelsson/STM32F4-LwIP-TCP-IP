@@ -71,7 +71,7 @@ A standard interface used to connect a Ethernet MAC block to a PHY chip.
 
 **MSS**  
 Maximum Segment Size  
-Defines the maximum amount of data that can be sent or received in a TCP or UDP packet.  
+Defines the maximum amount of data that can be sent or received in a TCP or UDP packet. MSS sizes are specified in octets (8-bit values).    
 
 **MTU**  
 Maximum Transmission Unit  
