@@ -45,6 +45,10 @@ For multicast traffic management. This protocol is supported by LwIP.
 Internet Protocol  
 Important commonly used protocol for Internet communication. Provides functionality for routing and relaying of datagrams across network boundaries. This protocol is supported by LwIP.  
 
+**LAN**  
+Local Area Network  
+A computer network that interconnects computers within a limited area such as a residence, school, laboratory, or office building.  
+
 **LLMNR**  
 Link Local Multicast Name Resolution  
 A protocol for name resolution. This protocol is supported by FreeRTOS+TCP.  
