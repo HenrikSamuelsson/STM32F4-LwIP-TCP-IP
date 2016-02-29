@@ -119,4 +119,8 @@ Provides reliable, ordered, and error-checked delivery of a stream of octets bet
 
 **UDP**  
 User Datagram Protocol
-A simple connectionless transmission model with a minimum of protocol mechanisms. This protocol is supported by LwIP.    
+A simple connectionless transmission model with a minimum of protocol mechanisms. This protocol is supported by LwIP.  
+
+**WINS**  
+Windows Internet Name Service  
+Microsoft's implementation of NBNS.  
