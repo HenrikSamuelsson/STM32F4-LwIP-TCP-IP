@@ -117,6 +117,12 @@ Collects and organizes information about managed devices on IP networks can also
 Transmission Control Protocol  
 Provides reliable, ordered, and error-checked delivery of a stream of octets between applications running on hosts communicating over an IP network. This protocol is supported by LwIP.  
 
+**TUN/TAP**  
+network TUNnel / network TAP  
+In computer networking, TUN and TAP are virtual network kernel devices. Being network devices supported entirely in software, they differ from ordinary network devices which are backed up by hardware network adapters.  
+
+TUN simulates a network layer device and it operates with layer 3 packets like IP packets. TAP simulates a link layer device and it operates with layer 2 packets like Ethernet frames.  
+
 **UDP**  
 User Datagram Protocol
 A simple connectionless transmission model with a minimum of protocol mechanisms. This protocol is supported by LwIP.  
